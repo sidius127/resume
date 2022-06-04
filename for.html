@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Связаться со мной</title>
+    <meta name="description" content="job"/>
+   
+    <style>
+        body {
+          background-image: url('imag/stol.jpg');
+        }
+        </style>
+</head>
+<body>
+  <h1>Связаться со мной</h1> 
+  <form action="/">
+  <div>
+      <label for="text">Ваше Имя</label>
+      <input type="text" id="text" placeholder="Введите Ваше Имя">
+  </div>
+  <div>
+    <label for="email">Ваша почта</label>
+    <input type="email" id="email" placeholder="Введите Вашу почту">
+</div>
+<div>
+    
+    <label for="range">Ваш возраст</label>
+    <input type="range" id="range" min="0" max="100" step="1" list="tickmarks">
+    <datalist id="tickmarks">
+        <option value="0">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50">
+        <option value="60">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+      </datalist>
+</div>
+<br>
+<div>
+    <label for="sex">Ваш пол</label>
+   <select id="sex">
+       <option value="male" selected>Мужчина</option>
+       <option value="female" >женщина</option>
+   </select>
+</div>
+<br>
+<br>
+<div>
+    <label for="message">Ваше сообщение</label> 
+    <textarea id="message" placeholder="Введите Ваше сообщение" cols="20" rows="10"></textarea>
+</div>
+<div>
+ <button type="submit">Oтправить</button>
+
+ <input type="reset" value="Очистить">
+</div>
+</form>
+  <a href="index.html" > назад</a>
+</body>
+</html>
