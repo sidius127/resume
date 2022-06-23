@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Mono:ital,wght@1,300&display=swap');
+body {
+    background-color: bisque;
+    margin: 0%;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+ .main {
+     display: flex;
+     flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto;
+ }
+ a {
+     text-decoration: none;
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+     color: #565e6a;
+ }
+
+ a:hover {
+     color: rgb(170, 98, 122);
+    
+ }
+ .skill li {font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: chocolate;
+}
+.askil {color: white;}
+ .skill li:hover {
+     color: aqua;
+    cursor: default; }
+.skill {margin-left: 15px;
+     padding: 0%;}
+
+
+ .ava {width: 200px;}
+
+.leftside {
+    background: #1E2939;
+    width: 370px;
+    color: white;
+}
+.leftside h3 { font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.Projects {margin: 20px;}
+.ava {padding-top: 30px;}
+ .maincon {margin-left:  80px;}
+ .Projects {margin-top:  20px;}
+ .Work {margin-top: 50px;}
+ .edu {margin-top: 40px; margin-bottom: 10; ;}
+ 
+ .menu-bar ul ul {
+     display: none;
+ }
+
+ .menu-bar li:hover>ul {
+     display: block;
+ }
+ .ava {width:  370px;
+margin-bottom: 50px;}
+
+.sidtit {
+    color: white;
+   
+}
+
+.lcont { margin-left:  40px;
+margin-top: 50px;}
+
+.hper {margin-top: 100px;
+    
+        width: 153px;
+        height: 17px;
+        left: 498px;
+        top: 142px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;;}
+
+
+ h1 {font-family: 'Montserrat';
+     font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+     line-height: 55px;
+    margin-top: 20px;}
+
+ .blokTect {
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color:#595959;
+ }
+ .maincon h4 { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;  }
+.yello { color: chocolate;}
+.date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 10px;
+    
+}
+.head {margin-bottom:  40px;}
+.maincon ul { margin-left: 10px; padding-left: 0%;}
+.maincon h4,  .btnots, .univer {padding-bottom: 0%; margin-bottom: 10px;}
+.maincon h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 40px;
+}
+.chert {color: black;}
+.btnots {margin-top: 10px;}
